@@ -1,0 +1,2 @@
+- name: PHPUnit for Symfony
+  uses: chindit/actions-phpunit-symfony@1.0.0
