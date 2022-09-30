@@ -16,7 +16,7 @@ class CreateUserTest extends WebTestCase
 
         $client->loginUser($testUser);
 
-        $client->request('GET', '/profile');
+        $client->request('GET', '/en/profile');
         $this->assertResponseIsSuccessful();
         $this->assertSelectorTextContains('h1', 'thomas');
     }

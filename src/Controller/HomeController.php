@@ -7,11 +7,8 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class HomeController extends AbstractController
 {
-    /**
-     * @Route("/", name="app_home")
-     */
     public function showHome()
     {
-        return $this->render('base.html.twig');
+        return $this->render('dashboard/dashboard.html.twig');
     }
 }
