@@ -1,9 +1,6 @@
 name: phpunit
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
 jobs:
   Tests_Symfony:
     runs-on: ubuntu-latest
